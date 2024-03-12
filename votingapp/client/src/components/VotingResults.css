@@ -1,0 +1,40 @@
+.chart-label {
+  color: #333; /* Use a darker gray for better contrast */
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500; /* Slightly lighter weight for better readability */
+  font-size: 1rem; /* Adjust as needed */
+}
+
+.bar-chart .bar {
+  fill: #007bff; /* Primary blue color */
+  stroke: #0062cc; /* Slightly darker border for definition */
+}
+
+.chart-container {
+  background-color: #f5f5f5; /* Light gray background for visual separation */
+  border-radius: 10px; /* Soften edges */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Add subtle shadow */
+}
+
+.chart-item {
+  width: 48%; /* Adjust as needed */
+  margin: 0 1%; /* Add small spacing between charts */
+}
+
+.axis text {
+  fill: #6c757d;
+  font-size: 1rem; /* Slightly larger font size */
+}
+
+/* Additional styling for pie chart: */
+.pie-chart .chart-arc {
+  stroke: #fff; /* White border for visual separation */
+}
+
+.pie-chart .chart-legend .legend-item-text {
+  font-weight: 500; /* Consistent font weight */
+}
+
+.chart-wrapper {
+  display: flex; /* Arrange elements horizontally */
+}

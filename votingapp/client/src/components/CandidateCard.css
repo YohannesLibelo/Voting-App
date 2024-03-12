@@ -1,0 +1,119 @@
+/* importing google fonts to be used */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Zen+Dots&display=swap");
+
+/* setting variables to make styling easier */
+
+:root {
+  --headings: "Share Tech Mono", monospace;
+  --font: "Zen Dots", cursive;
+}
+
+.headings {
+  font-family: var(--headings);
+}
+
+.home-container {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-md {
+  width: 85%;
+}
+
+h5 {
+  font-family: sans-serif;
+
+  color: rgb(12, 12, 12);
+}
+
+/* Adjusting card alignment */
+.card {
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+/* Styling the Vote button */
+.btn-vote {
+  margin-top: 10px; /* Add some space between manifesto and button */
+}
+
+/* Adjusting the modal */
+.modal {
+  font-family: var(--font); /* Apply custom font to the modal */
+}
+
+.modal-title {
+  font-family: var(--headings); /* Apply custom font to the modal title */
+}
+
+.modal-content {
+  background-color: #f8f9fa; /* Change background color of the modal content */
+}
+
+.modal-body {
+  font-size: 16px; /* Increase font size of modal body */
+}
+
+/* Centering the modal */
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting the Sign Up Link */
+.text-gray-500 {
+  font-size: 14px; /* Decrease font size of Sign Up Link */
+}
+
+/* Centering the Sign Up Link */
+.py-4 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling the glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 30px; /* Increase margin between cards for smaller screens */
+  }
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: scale(1.02); /* Scale up card on hover */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+#cardVP {
+  cursor: pointer;
+  transition: 0.5s;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  transition: 0.3s linear;
+}
+
+
+
+#winner-indicator {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
